@@ -1,0 +1,45 @@
+.form-control:focus{
+    box-shadow: 0 0 0 0.1rem rgb(95, 134, 160);
+    border-color: rgb(68, 96, 114);
+}
+.btn, .btn:focus, .btn:active{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.btn{
+    color: white;
+    background-color: #30575d !important;
+    border-color: #30575d !important;
+    border-radius: 999px;
+    width: 95%;
+}
+.btn:hover, .btn:active, .btn:focus{
+    background-color: #4a868f !important;
+    border-color: #4a868f !important;
+}
+.star{
+    color: red;
+}
+
+.user-box{
+    background-color: #fff;
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px 10px 50px;
+}
+
+.user-box form > div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.custom-file-label{
+    overflow: hidden;
+}
+
+.small{
+    font-size: small;
+}
