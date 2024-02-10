@@ -4,3 +4,6 @@ Pillow==9.1.1
 pytz==2022.1
 sqlparse==0.4.2
 environ==1.0.0
+gunicorn==20.1.0
+psycopg2==2.9.5
+psycopg2-binary==2.9.5
